@@ -2128,7 +2128,7 @@ body::after {
   .hero__image::after {
     display: none;
   }
-  .hero__vector img:nth-child(1) {
+  .hero__vector--pc {
     display: none;
   }
   .benefits__columns {
@@ -3033,7 +3033,7 @@ body::after {
   .hero__image {
     aspect-ratio: 594/641;
   }
-  .hero__vector img:nth-child(2) {
+  .hero__vector--mobile {
     display: none;
   }
   .benefits__main {
