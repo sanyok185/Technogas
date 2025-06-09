@@ -1450,7 +1450,7 @@ textarea.--form-error {
   transform: translate(0, 0);
 }
 .stages__button {
-  transition: all 0.6s 0.3s;
+  transition: opacity 0.6s 0.3s, transform 0.6s 0.3s, color 0.4s, background-color 0.4s;
   opacity: 0;
   transform: translate(0, 0.625rem);
 }
