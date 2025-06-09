@@ -488,13 +488,14 @@ body {
   margin-bottom: 1.25rem;
 }
 .footer__dev {
-  color: #5B5B60;
+  line-height: 125%;
+  color: #5b5b60;
 }
 .footer__dev a {
   transition: all 0.4s;
 }
 .footer__copy {
-  color: #FFF;
+  color: #fff;
   font-weight: 400;
   line-height: 127.777778%; /* 23/18 */
   text-transform: capitalize;
@@ -1969,6 +1970,12 @@ body::after {
   }
   .footer__bottom {
     flex-direction: column-reverse;
+  }
+  .footer__dev {
+    text-align: center;
+  }
+  .footer__copy {
+    text-align: center;
   }
   .button {
     padding: 0.8125rem 3.3125rem 0.6875rem 3.3125rem;
@@ -3763,13 +3770,13 @@ body::after {
     left: 0;
   }
   .footer__phones a:hover {
-    color: #FFF;
+    color: #fff;
   }
   .footer__mail:hover {
-    color: #FFF;
+    color: #fff;
   }
   .footer__dev a:hover {
-    color: #FFF;
+    color: #fff;
   }
   .button--black:hover {
     color: #29292c;
