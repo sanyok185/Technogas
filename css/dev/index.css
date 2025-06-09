@@ -1600,7 +1600,6 @@ textarea.--form-error {
 }
 .request__social a {
   transition: all 0.4s;
-  color: #F89820;
 }
 .request__button {
   width: 100%;
@@ -3771,6 +3770,6 @@ body::after {
     transform: scale(1.025);
   }
   .request__social a:hover {
-    color: #fff;
+    color: #F89820;
   }
 }
