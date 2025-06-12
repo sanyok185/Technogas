@@ -5,17 +5,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Сучасні газові технології</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1749474569559"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1749474569559">
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1749713170508"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1749713170508">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1749713170508">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header data-fls-header="" class="header">
 				<div class="header__container">
 					<div class="header__content bullet">
-						<dic class="header__logo logo">
+						<a href="." class="header__logo logo">
 							<img src="./assets/img/logo.svg" alt="Logo">
-						</dic>
+						</a>
 						<div class="header__body">
 							<div class="header__contacts">
 								<div class="header__location" data-fls-dynamic=".menu__body, 768, 2">м. Київ вул. Березняківська, 8</div>
@@ -33,13 +35,13 @@
 									<nav class="menu__body">
 										<ul class="menu__list">
 											<li class="menu__item">
-												<a data-fls-scrollto=".why" href="" class="menu__link">Про нас</a>
+												<a data-fls-scrollto=".why" href="." class="menu__link">Про нас</a>
 											</li>
 											<li>
-												<a data-fls-scrollto=".services" href="" class="menu__link">послуги</a>
+												<a data-fls-scrollto=".services" href="." class="menu__link">послуги</a>
 											</li>
 											<li>
-												<a data-fls-scrollto=".stages" href="" class="menu__link">Етапи співпраці</a>
+												<a data-fls-scrollto=".stages" href="." class="menu__link">Етапи співпраці</a>
 											</li>
 										</ul>
 									</nav>
@@ -704,9 +706,9 @@
 			<footer data-fls-footer="" class="footer">
 				<div class="footer__container">
 					<div class="footer__body">
-						<button type="button" data-fls-scrollto=".header" class="footer__logo logo">
+						<a href="." type="button" class="footer__logo logo">
 							<img src="./assets/img/logo.svg" alt="Logo">
-						</button>
+						</a>
 						<ul class="footer__menu">
 							<li>
 								<a data-fls-scrollto=".why" class="link" href="">Про нас</a>
@@ -748,7 +750,9 @@
 						</div>
 					</div>
 					<div class="footer__bottom">
-						<a class="footer__dev" href="https://www.codeclad.com/" target="_blank">Розроблено в Сodeclad</a>
+						<div class="footer__dev">
+							<a href="https://www.codeclad.com/" target="_blank">Розроблено в Сodeclad</a>
+						</div>
 						<div class="footer__copy">© Cучасні газові технології, 2025</div>
 					</div>
 				</div>
